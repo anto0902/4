@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.1/dist/aframe-environment-component.min.js"></script>
+  </head>
+  
+  <body>
+    <a-scene>
+
+      <a-entity environment=
+      "preset: japan;
+      seed: 2;
+      skyType: gradient;
+      skyColor: #FFC799;
+      horizonColor: #2F9999 ;
+      lighting: distant;
+      fog: 0;
+      ground: hills;
+      groundYScale: 4;
+      groundTexture: walkernoise;
+      groundColor: #A1DF00;
+      groundColor2: #5AB700;
+      dressing: trees;
+      dressingAmount: 20;
+      dressingcolor: red;
+      dressingScale: 5;
+  
+
+    
+     
+      "></a-entity>
+    
+
+    <a-camera position="0 5 0"></a-camera>
+   
+  </a-scene>
+  </body>
+</html>
